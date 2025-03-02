@@ -1,4 +1,29 @@
-$primary: blue;
+// font
+$font-family-sans-serif:'Open Sans', sans-serif;
+
+// Colors
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+// navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+
+// button 
+$button-radius: 50px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$navbar-toggler-border-radius: 5px;
+
+// Custom CSS
+.navbar .btn-outline-light:hover {
+    color: #333;
+}
 
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
