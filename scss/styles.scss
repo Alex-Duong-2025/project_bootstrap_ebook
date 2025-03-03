@@ -48,7 +48,21 @@ $headings-margin-bottom: $spacer * 1;
     background-position: center;
     background-repeat: no-repeat;
 
+}
 
+input.form-control::placeholder {
+   color: rgba(0,0,0,0.4); 
+  }
+
+@media (max-width: 1000px) {
+    .hero .image-container {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .hero .text-container {
+        text-align: center;
+    }
 }
 
 

@@ -2,21 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="images/favicon.png" />
-    <title>Boostrap 5 Starter template</title>
+    <title>Free E-Book | Start Your Own Blog</title>
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container">
-        <a href="./index.html" class="navbar-brand">
-          <img src="./images/logo.png" alt="logo" width="225" />
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo.png" alt="" width="225" />
         </a>
-
-        <!-- hamburger icon -->
         <button
           class="navbar-toggler"
           type="button"
@@ -25,15 +28,10 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <!-- navigation menu-->
-        <div
-          class="collapse navbar-collapse text-center"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav ms-auto d-flex">
-            <li class="nav-item me-3">
-              <a href="./index.html" class="nav-link fw-semibold">Home</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
             </li>
             <li class="nav-item">
               <a href="#details" class="nav-link fw-semibold">Details</a>
@@ -41,7 +39,7 @@
             <li class="nav-item">
               <a
                 href="contact.html"
-                class="btn btn-outline-light fw-semibold px-4 mx-4"
+                class="nav-link btn btn-outline-light fw-semibold px-4 mx-4"
                 >Contact</a
               >
             </li>
@@ -52,7 +50,7 @@
 
     <!-- Header -->
     <header class="header">
-      <!-- Hero section -->
+      <!-- Hero -->
       <div class="hero text-white pt-7">
         <div class="container-xl">
           <div class="row">
@@ -67,14 +65,15 @@
               >
                 <h1 class="display-3 fw-bold">Welcome to Blog Mastery</h1>
                 <p class="lead">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Praesentium blanditiis itaque culpa, cupiditate esse,
-                  voluptatem asperiores at deleniti, quam maiores soluta.
+                  Are you ready to take your blogging journey to new heights?
+                  Blog Mastery is your ultimate guide to creating and managing a
+                  successful blog that captivates your audience and drives
+                  engagement.
                 </p>
 
                 <!-- Form -->
                 <div class="form-container text-center">
-                  <form action="">
+                  <form>
                     <div class="my-4">
                       <input
                         type="email"
@@ -83,7 +82,7 @@
                       />
                     </div>
                     <div class="d-grid">
-                      <button class="btn btn-primary text-white">
+                      <button class="btn btn-primary btn-lg text-white">
                         Free Download
                       </button>
                     </div>
@@ -116,6 +115,47 @@
         />
       </svg>
     </header>
+
+    <!-- Icons -->
+    <section class="icons bg-light pb-5">
+      <div class="container-xl">
+        <div class="row hstack g-4">
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-user fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Unlock Your Blogging Potential</h5>
+              <p class="text-muted">
+                Discover the key to unleashing your true blogging potential. Our
+                ebook provides expert guidance on creating compelling content
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-rocket fa-3x text-secondary"></i>
+            <div>
+              <h5 class="fw-bold">Skyrocket Your Blog's Success</h5>
+              <p class="text-muted">
+                Take your blog to new heights with our proven strategies for
+                driving traffic and increasing your blog's visibility.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex gap-4">
+            <i class="fas fa-dollar fa-3x text-primary"></i>
+            <div>
+              <h5 class="fw-bold">Monetize Your Blog</h5>
+              <p class="text-muted">
+                Turn your passion for blogging into a profitable venture. Our
+                ebook reveals tried-and-tested monetization strategies
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
