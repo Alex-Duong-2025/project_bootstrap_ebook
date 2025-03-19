@@ -12,6 +12,7 @@ $navbar-padding-y: 1rem;
 $navbar-dark-color: #fff;
 $navbar-dark-hover-color: $secondary;
 
+
 // button 
 $button-radius: 50px;
 
@@ -36,6 +37,9 @@ $spacers: (
 
 $line-height-base: 1.7;
 $headings-margin-bottom: $spacer * 1;
+$enable-negative-margins: true;
+
+
 
 // Custom CSS
 .navbar .btn-outline-light:hover {
@@ -52,6 +56,14 @@ $headings-margin-bottom: $spacer * 1;
     transition: all 0.5s ease-in-out;
 }
 
+.nav-item:nth-child(1) {
+    margin-right: 1.2rem;
+}
+
+
+
+
+
 .header {
     background-image: url(../images/header-background.jpg);
     background-size: cover;
@@ -64,6 +76,11 @@ input.form-control::placeholder {
    color: rgba(0,0,0,0.4); 
   }
 
+.download {
+    background: url(../images/download-background.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 @media (max-width: 1000px) {
     .hero .image-container {
         display: flex; 
@@ -73,6 +90,8 @@ input.form-control::placeholder {
     .hero .text-container {
         text-align: center;
     }
+
+    
 }
 
 
